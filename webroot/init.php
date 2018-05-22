@@ -1,0 +1,34 @@
+<?php
+//echo "here";exit;
+//define("lib_path","http://111.93.169.90/team6/5star/");
+//echo constant(lib_path);exit;
+//echo (Router::url('/', true) . '/lib/Connection.php');exit;
+// require(dirname(__FILE__) . '/lib/Connection.php');
+// require(dirname(__FILE__) . '/lib/AbstractAddress.php');
+// require(dirname(__FILE__) . '/lib/DeliveryAddress.php');
+// require(dirname(__FILE__) . '/lib/BillingAddress.php');
+// require(dirname(__FILE__) . '/lib/AbstractOrder.php');
+// require(dirname(__FILE__) . '/lib/Order.php');
+// require(dirname(__FILE__) . '/lib/APMOrder.php');
+// require(dirname(__FILE__) . '/lib/Error.php');
+// require(dirname(__FILE__) . '/lib/OrderService.php');
+// require(dirname(__FILE__) . '/lib/TokenService.php');
+// require(dirname(__FILE__) . '/lib/Utils.php');
+// require(dirname(__FILE__) . '/lib/WorldpayException.php');
+// require(dirname(__FILE__) . '/lib/Worldpay.php');
+
+//echo dirname(__FILE__) . '/lib/Connection.php';exit;
+$ty =require(dirname(__FILE__) . '/lib/Connection.php');
+//print_r($ty);exit;
+require(dirname(__FILE__) . '/lib/AbstractAddress.php');
+require(dirname(__FILE__) . '/lib/DeliveryAddress.php');
+require(dirname(__FILE__) . '/lib/BillingAddress.php');
+require(dirname(__FILE__) . '/lib/AbstractOrder.php');
+require(dirname(__FILE__) . '/lib/Order.php');
+require(dirname(__FILE__) . '/lib/APMOrder.php');
+require(dirname(__FILE__) . '/lib/Error.php');
+require(dirname(__FILE__) . '/lib/OrderService.php');
+require(dirname(__FILE__) . '/lib/TokenService.php');
+require(dirname(__FILE__) . '/lib/Utils.php');
+require(dirname(__FILE__) . '/lib/WorldpayException.php');
+require(dirname(__FILE__) . '/lib/Worldpay.php');

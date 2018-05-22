@@ -1,0 +1,22 @@
+#dev conf
+config/app.php
+
+
+#temp file
+tmp
+logs
+cgi-bin/*
+error_log
+
+#images
+webroot/*_img/*
+
+
+#other files
+ *~
+ .DS_Store
+ .project
+ .settings
+ .classpath
+ .metadata
+/nbproject/private/

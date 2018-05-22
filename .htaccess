@@ -1,0 +1,16 @@
+<ifModule mod_headers.c>
+    SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
+    Header always set Access-Control-Allow-Origin "*"
+    Header always set Access-Control-Allow-Methods "POST, GET, OPTIONS, DELETE, PUT"
+    Header always set Access-Control-Max-Age "1000"
+    
+    Header always set Access-Control-Allow-Credentials "true"
+    Header always set Access-Control-Allow-Headers "x-requested-with, Content-Type, origin, authorization, accept, client-security-token"
+</ifModule>
+<IfModule mod_rewrite.c>
+    
+    
+    RewriteEngine on
+    RewriteRule    ^$    webroot/    [L]
+    RewriteRule    (.*) webroot/$1    [L]
+</IfModule>
